@@ -284,6 +284,7 @@ input::placeholder { color: var(--placeholder); }
 .form-status[hidden] { display: none; }
 
 .contact-form { display: flex; flex-direction: column; gap: 18px; max-width: 520px; }
+.contact-form[hidden] { display: none; }
 .form-row { display: flex; flex-direction: column; gap: 7px; }
 .form-row label { font-size: 14px; font-weight: 500; color: var(--muted); }
 .contact-form input,

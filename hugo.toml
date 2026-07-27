@@ -1,0 +1,46 @@
+baseURL = "https://audrius.dev/"
+languageCode = "en-us"
+title = "Audrius"
+
+disableKinds = ["taxonomy", "term"]
+
+# Google Analytics: paste your GA4 measurement ID (G-XXXXXXXXXX) here.
+# The tag is only emitted in production builds (`hugo`), never by `hugo server`.
+[services]
+  [services.googleAnalytics]
+    ID = ""
+
+[params]
+  description = "Software Engineer · DevOps · Cloud · Vilnius, Lithuania"
+  email = "audrius.masiulionis@gmail.com"
+  linkedin = "https://www.linkedin.com/in/audriusmasiulionis/"
+  github = "https://github.com/AudriusMasiulionis"
+  # Contact form backend. Sign up at formspree.io (or web3forms.com) and put
+  # the endpoint here, e.g. "https://formspree.io/f/abcdwxyz".
+  formAction = ""
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 20
+  [[menus.main]]
+    name = "Services"
+    pageRef = "/services"
+    weight = 30
+  [[menus.main]]
+    name = "Projects"
+    pageRef = "/projects"
+    weight = 35
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 40
+  [[menus.main]]
+    name = "Resume"
+    pageRef = "/resume"
+    weight = 50

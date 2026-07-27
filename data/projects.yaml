@@ -1,0 +1,15 @@
+projects:
+  - name: Flagmingo
+    status: In progress
+    url: "#"
+    summary: >-
+      Feature-flag governance for Azure shops: scanner for stale flags,
+      environment drift, and ownership gaps in Azure App Config.
+  - name: AutoDokas.lt
+    status: Live
+    url: "https://autodokas.lt"
+    summary: >-
+      Lithuanian car paperwork, minus the paperwork — fill a car
+      purchase-sale contract online in minutes, and compare daily fuel
+      prices from every station in Lithuania (filter by city, fuel type or
+      chain, top-5 cheapest, price map, updated every workday).

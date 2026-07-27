@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="page-intro">
+<div class="page-intro-text">
+<h1>{{ .Title }}</h1>
+{{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+</div>
+</section>
+<section class="section section-tight">
+<form class="contact-form" method="POST" action="{{ site.Params.formAction }}">
+<div class="form-row">
+<label for="cf-name">Name</label>
+<input id="cf-name" type="text" name="name" required autocomplete="name">
+</div>
+<div class="form-row">
+<label for="cf-email">Email</label>
+<input id="cf-email" type="email" name="email" required autocomplete="email" placeholder="you@company.com">
+</div>
+<div class="form-row">
+<label for="cf-message">Message</label>
+<textarea id="cf-message" name="message" rows="6" required></textarea>
+</div>
+<button type="submit" class="btn-primary">Send message</button>
+</form>
+<p class="contact-alt">Prefer not to use the form? Reach me on <a href="{{ site.Params.linkedin }}">LinkedIn</a>.</p>
+</section>
+{{ end }}

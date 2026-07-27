@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="page-intro">
+<div class="page-intro-text">
+<h1>{{ .Title }}</h1>
+{{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+</div>
+</section>
+<section class="section">
+<div class="entries">
+{{ range hugo.Data.projects.projects }}
+<div class="entry">
+<div class="entry-head">
+<span class="entry-title">{{ if and .url (ne .url "#") }}<a href="{{ .url }}">{{ .name }} ↗</a>{{ else }}{{ .name }}{{ end }}</span>
+{{ with .status }}<span class="entry-dates">{{ . }}</span>{{ end }}
+</div>
+{{ with .summary }}<p class="entry-body">{{ . }}</p>{{ end }}
+</div>
+{{ end }}
+</div>
+</section>
+{{ end }}

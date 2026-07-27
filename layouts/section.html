@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="page-intro">
+<div class="page-intro-text">
+<h1>{{ .Title }}</h1>
+{{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+</div>
+</section>
+<div class="entries post-list">
+{{ range .Pages }}
+<div class="entry">
+<div class="entry-head">
+<span class="entry-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+<span class="entry-dates">{{ .Date.Format "Jan 2006" }}</span>
+</div>
+{{ with .Description }}<p class="entry-body">{{ . }}</p>{{ end }}
+</div>
+{{ else }}
+<p class="entry-body">Nothing here yet.</p>
+{{ end }}
+</div>
+{{ end }}

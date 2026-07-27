@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}</title>
+<meta name="description" content="{{ .Description | default site.Params.description }}">
+<script>document.documentElement.dataset.theme = localStorage.getItem('theme') || 'dark';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+{{ if hugo.IsProduction }}
+{{ template "_internal/google_analytics.html" . }}
+{{ end }}
+{{ with resources.Get "css/main.css" | minify }}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}
+</head>
+<body>
+{{ partial "header.html" . }}
+<main class="container">
+{{ block "main" . }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+{{ with resources.Get "js/theme.js" | minify }}
+<script src="{{ .RelPermalink }}" defer></script>
+{{ end }}
+</body>
+</html>

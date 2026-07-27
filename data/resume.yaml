@@ -1,0 +1,238 @@
+tagline: "Senior technical leader — DevOps & platform engineering · Vilnius, Lithuania"
+pdf: /resume.pdf
+
+summary:
+  - >-
+    Senior technical leader with a DevOps and platform engineering focus.
+    Expertise across cloud-native architecture, containerization (Docker,
+    Kubernetes), CI/CD, and infrastructure automation (Ansible), with strong
+    development skills in C#, .NET, and Python. I design, build, and operate
+    scalable, reliable systems aligned with business goals.
+  - >-
+    I own the full delivery lifecycle, from architecture and development to
+    infrastructure as code and production operations, across both greenfield
+    builds and legacy modernisation. I lead engineering teams, shape technical
+    direction, and embed reliability, observability, and security best
+    practices, enabling teams through automation and standardisation.
+
+skills:
+  - name: "C#"
+    years: 8 yrs
+  - name: SQL
+    years: 8 yrs
+  - name: NoSQL
+    years: 5 yrs
+  - name: Azure
+    years: 5 yrs
+  - name: Azure DevOps
+    years: 5 yrs
+  - name: IaC
+    years: 5 yrs
+  - name: Angular
+    years: 5 yrs
+  - name: Software Architecture
+    years: 5 yrs
+  - name: Leadership
+    years: 4 yrs
+  - name: Docker
+    years: 3 yrs
+  - name: Kubernetes
+    years: 2 yrs
+  - name: Python
+    years: 2 yrs
+
+experience:
+  - role: Principal Engineer (Contract)
+    company: Toughlex
+    dates: Feb 2026 — now
+    bullets:
+      - >-
+        Principal engineer for a bank customer onboarding platform — own
+        technical direction across a microservice-based system built on .NET,
+        React, AKS, and ArgoCD.
+      - >-
+        Integrated the platform with Lithuanian state registries — Registrų
+        centras (Centre of Registers) and Sodra (State Social Insurance Fund)
+        — for automated customer data verification.
+      - >-
+        Designed and implemented a module-based permission model using
+        OpenFGA, providing fine-grained access control across services.
+      - >-
+        Re-architected the Apollo GraphQL gateway to hot-reload schemas on
+        change instead of introspect-and-compose, eliminating gateway downtime
+        and removing manual resets when schemas changed.
+      - >-
+        Lead technical analysis and design, proposing changes and shaping key
+        technical decisions across the platform in collaboration with
+        architects.
+  - role: Technical Lead (Contract)
+    company: Chevron
+    dates: Jun 2023 — Oct 2025
+    bullets:
+      - >-
+        Defined and executed technical and DevOps strategy, aligning cloud
+        architecture, delivery pipelines, and operational practices with
+        business objectives, scalability, and compliance requirements.
+      - >-
+        Led a 7-member cross-functional team, providing technical leadership,
+        mentorship, and oversight across development, DevOps, and release
+        management.
+      - >-
+        Designed and maintained CI/CD pipelines and cloud infrastructure on
+        Azure, introducing best practices such as feature flags, blue-green
+        deployments, and automated testing for faster, more reliable releases.
+      - >-
+        Developed and integrated C# backend and Angular frontend applications,
+        including integrations with contractor, workforce, and third-party
+        waste management systems.
+      - >-
+        Built and optimized Azure Functions and Synapse Analytics solutions
+        for event-driven workflows, data processing, and reporting.
+      - >-
+        Collaborated with architects and stakeholders on key architectural
+        decisions; delivered greenfield projects to production, meeting all
+        delivery milestones and quality standards.
+      - >-
+        Monitored and optimized cloud performance, reliability, and cost
+        efficiency through proactive DevOps practices.
+  - role: Senior Software Engineer (Contract)
+    company: Chevron
+    dates: Jun 2022 — Jun 2023
+    bullets:
+      - >-
+        Developed a platform for indexing, classifying, and visualizing
+        geospatial and temporal data.
+      - >-
+        Implemented backend services in Python, leveraging GDAL and STAC
+        standards for geospatial data handling.
+      - >-
+        Built and maintained cloud-native solutions on Azure, deployed with
+        Kubernetes.
+      - >-
+        Developed and supported the Angular frontend for data exploration and
+        visualization.
+      - >-
+        Optimized data processing workflows to ensure scalability and
+        performance for large geospatial datasets.
+  - role: Cloud Consultant (Contract)
+    company: Danske Bank
+    dates: Mar 2022 — May 2022
+    bullets:
+      - >-
+        Advised a development team of a Scandinavian financial institution on
+        cloud migration strategy from legacy mainframe systems.
+      - >-
+        Designed and recommended API-first architecture to enable modular and
+        scalable services.
+      - >-
+        Guided adoption of AWS cloud-native services, including Lambda for
+        serverless compute and DynamoDB for high-availability data storage.
+  - role: Service Architect / Technical Team Lead
+    company: Visma Idella
+    dates: Apr 2021 — Mar 2022
+    bullets:
+      - >-
+        Led a 9-member development team delivering services and portals for
+        Dutch pension administrators.
+      - >-
+        Oversaw design and implementation of ASP.NET Web API solutions and
+        Azure Serverless applications.
+      - >-
+        Managed deployments on Azure App Services and integrated with Cosmos
+        DB, MongoDB, and Azure Storage.
+      - >-
+        Established and maintained CI/CD pipelines with Azure DevOps; defined
+        infrastructure using ARM templates and Terraform.
+      - >-
+        Ensured code quality through XUnit testing and peer code reviews.
+  - role: Senior Developer
+    company: Visma Idella
+    dates: Jul 2020 — Apr 2021
+    bullets:
+      - >-
+        Designed and developed a multi-tenant microservice for processing
+        payroll data for Dutch pension administrators.
+      - >-
+        Implemented backend services using ASP.NET Web API with integrations
+        into Azure Serverless components.
+      - >-
+        Deployed and managed applications on Azure App Services with storage
+        and persistence in Azure Storage and Cosmos DB.
+      - >-
+        Defined infrastructure with ARM templates; automated build, test, and
+        release with Azure DevOps CI/CD pipelines.
+  - role: Lecturer
+    company: Vilnius Coding School
+    dates: Nov 2017 — Dec 2018
+    bullets:
+      - >-
+        Delivered lectures and hands-on training on Java fundamentals and
+        advanced .NET C# concepts.
+      - >-
+        Designed course materials, exercises, and practical projects; guided
+        students through best practices, debugging, and problem solving.
+  - role: .NET Developer
+    company: Visma
+    dates: Aug 2017 — Jun 2020
+    bullets:
+      - >-
+        Main developer for a pension administration portal used by Danish
+        clients.
+      - >-
+        Implemented backend services with ASP.NET MVC and ASP.NET Web API,
+        integrating with Entity Framework and MSSQL.
+      - >-
+        Developed and maintained AngularJS frontend components for user-facing
+        functionality.
+  - role: .NET Developer
+    company: Nortal
+    dates: Jan 2017 — Jul 2017
+    bullets:
+      - >-
+        Developed online portals for Baltic telecommunication companies,
+        delivering user-facing and backend functionality.
+      - >-
+        Built backend services using ASP.NET MVC and ASP.NET Web API, with
+        Entity Framework and MSSQL for data management.
+      - >-
+        Implemented frontend features with AngularJS, ensuring responsive and
+        interactive user experiences.
+  - role: Junior .NET Developer | .NET Developer
+    company: SEB
+    dates: Feb 2016 — Jan 2017
+    bullets:
+      - >-
+        Developed and maintained internal banking systems using ASP.NET Web
+        Forms and Entity Framework.
+      - >-
+        Collaborated with team members to implement business requirements and
+        optimize system performance.
+
+education:
+  - degree: Bachelor of Management Information Systems
+    school: Vilnius University, Lithuania
+    dates: 2011 — 2015
+
+languages:
+  - English — full professional proficiency
+  - Lithuanian — native proficiency
+
+certifications:
+  - AWS Certified Cloud Practitioner
+  - LPI Linux Essentials
+
+community:
+  - name: Visma Idella DevOps Guild Member
+    dates: Jan 2021 — Mar 2022
+  - name: Visma Idella Developer Guild Member
+    dates: Jan 2021 — Mar 2022
+  - name: Visma Idella Service Architect Guild Member
+    dates: Jan 2021 — Mar 2022
+  - name: Visma Internship Committee Member
+    dates: Jan 2019 — Jan 2021
+  - name: Visma Internship Mentor
+    dates: Aug 2017 — Jan 2019
+
+achievements:
+  - 2025 Riga Marathon finisher
+  - 2025 Poznań Ironman 70.3 finisher

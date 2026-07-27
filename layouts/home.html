@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="page-intro">
+<div class="intro-person">
+<img class="avatar" src="{{ "images/audrius.jpg" | relURL }}" alt="Portrait of Audrius" width="200" height="250">
+<div class="page-intro-text">
+<h1>{{ .Title }}</h1>
+{{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+<div class="intro-blurb prose">
+{{ .Content }}
+</div>
+<div class="intro-ctas">
+<a class="btn-primary" href="{{ "/services" | relURL }}">View my services</a>
+<a class="btn-outline" href="{{ site.Params.buildingNow | default "#" }}">Building right now →</a>
+</div>
+</div>
+</div>
+</section>
+{{ $posts := where site.RegularPages "Section" "blog" }}
+{{ with first 3 $posts }}
+<section class="section">
+<span class="eyebrow">Recent posts</span>
+<div class="entries">
+{{ range . }}
+<div class="entry">
+<div class="entry-head">
+<span class="entry-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+<span class="entry-dates">{{ .Date.Format "Jan 2006" }}</span>
+</div>
+{{ with .Description }}<p class="entry-body">{{ . }}</p>{{ end }}
+</div>
+{{ end }}
+</div>
+<a href="{{ "/blog" | relURL }}" class="all-posts-link">All posts →</a>
+</section>
+{{ end }}
+{{ end }}

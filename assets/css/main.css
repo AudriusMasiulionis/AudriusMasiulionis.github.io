@@ -278,6 +278,11 @@ input::placeholder { color: var(--placeholder); }
 .edu-title { font-size: 16px; font-weight: 600; }
 
 /* Contact form */
+.form-status { margin: 0 0 6px; font-size: 15px; line-height: 1.6; }
+.form-status.ok { color: var(--accent); }
+.form-status.err { color: var(--muted); }
+.form-status[hidden] { display: none; }
+
 .contact-form { display: flex; flex-direction: column; gap: 18px; max-width: 520px; }
 .form-row { display: flex; flex-direction: column; gap: 7px; }
 .form-row label { font-size: 14px; font-weight: 500; color: var(--muted); }

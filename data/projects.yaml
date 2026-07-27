@@ -1,10 +1,4 @@
 projects:
-  - name: Flagmingo
-    status: In progress
-    url: "#"
-    summary: >-
-      Feature-flag governance for Azure shops: scanner for stale flags,
-      environment drift, and ownership gaps in Azure App Config.
   - name: AutoDokas.lt
     status: Live
     url: "https://autodokas.lt"

@@ -5,14 +5,14 @@
 <h1>{{ .Title }}</h1>
 <p class="subtitle">{{ $r.tagline }}</p>
 </div>
-{{ with $r.pdf }}<a href="{{ . | relURL }}" class="btn-outline">Download PDF</a>{{ end }}
+{{ with $r.pdf }}<a href="{{ . | relURL }}" class="btn-primary">Download full CV (PDF)</a>{{ end }}
 </section>
 
-{{ with $r.summary }}
+{{ with index $r.summary 0 }}
 <section class="section section-tight">
 <span class="eyebrow">Summary</span>
 <div class="summary">
-{{ range . }}<p>{{ . }}</p>{{ end }}
+<p>{{ . }}</p>
 </div>
 </section>
 {{ end }}
@@ -28,19 +28,13 @@
 
 <section class="section">
 <span class="eyebrow">Experience</span>
-<div class="entries">
+<div class="entries entries-compact">
 {{ range $r.experience }}
 <div class="entry">
 <div class="entry-head">
 <span class="entry-title">{{ .role }}{{ with .company }} — {{ . }}{{ end }}</span>
 <span class="entry-dates">{{ .dates }}</span>
 </div>
-{{ with .summary }}<p class="entry-body">{{ . }}</p>{{ end }}
-{{ with .bullets }}
-<ul class="entry-bullets">
-{{ range . }}<li>{{ . }}</li>{{ end }}
-</ul>
-{{ end }}
 </div>
 {{ end }}
 </div>
@@ -55,45 +49,4 @@
 </div>
 {{ end }}
 </section>
-
-{{ with $r.languages }}
-<section class="section section-tight">
-<span class="eyebrow">Languages</span>
-<ul class="plain-list">
-{{ range . }}<li>{{ . }}</li>{{ end }}
-</ul>
-</section>
-{{ end }}
-
-{{ with $r.certifications }}
-<section class="section section-tight">
-<span class="eyebrow">Certifications</span>
-<ul class="plain-list">
-{{ range . }}<li>{{ . }}</li>{{ end }}
-</ul>
-</section>
-{{ end }}
-
-{{ with $r.community }}
-<section class="section section-tight">
-<span class="eyebrow">Community & guilds</span>
-<div class="rows">
-{{ range . }}
-<div class="edu-row">
-<span class="row-title">{{ .name }}</span>
-<span class="entry-dates">{{ .dates }}</span>
-</div>
-{{ end }}
-</div>
-</section>
-{{ end }}
-
-{{ with $r.achievements }}
-<section class="section section-tight">
-<span class="eyebrow">Other achievements</span>
-<ul class="plain-list">
-{{ range . }}<li>{{ . }}</li>{{ end }}
-</ul>
-</section>
-{{ end }}
 {{ end }}

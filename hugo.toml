@@ -1,6 +1,6 @@
-baseURL = "https://audrius.dev/"
+baseURL = "https://audriusmasiulionis.github.io/"
 languageCode = "en-us"
-title = "Audrius"
+title = "Audrius Masiulionis"
 
 disableKinds = ["taxonomy", "term"]
 

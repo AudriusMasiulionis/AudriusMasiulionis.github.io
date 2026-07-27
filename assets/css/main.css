@@ -191,6 +191,9 @@ input::placeholder { color: var(--placeholder); }
 }
 .entry:last-child { border-bottom: 1px solid var(--line); }
 
+.entries-compact .entry { padding: 14px 0; }
+.entries-compact .entry-title { font-size: 16px; }
+
 .entry-head {
   display: flex;
   flex-wrap: wrap;

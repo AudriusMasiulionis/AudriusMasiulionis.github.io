@@ -98,7 +98,7 @@ input::placeholder { color: var(--placeholder); }
 
 /* Page intro */
 .page-intro {
-  padding: 56px 0 8px;
+  padding: 0 0 8px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

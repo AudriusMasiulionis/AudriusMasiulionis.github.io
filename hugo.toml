@@ -17,7 +17,7 @@ disableKinds = ["taxonomy", "term"]
   github = "https://github.com/AudriusMasiulionis"
   # Contact form backend. Sign up at formspree.io (or web3forms.com) and put
   # the endpoint here, e.g. "https://formspree.io/f/abcdwxyz".
-  formAction = ""
+  formAction = "https://formspree.io/f/xrenrojy"
 
 [menus]
   [[menus.main]]

@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "term"]
 # The tag is only emitted in production builds (`hugo`), never by `hugo server`.
 [services]
   [services.googleAnalytics]
-    ID = ""
+    ID = "G-Q939WE8E88"
 
 [params]
   description = "Software Engineer · DevOps · Cloud · Vilnius, Lithuania"

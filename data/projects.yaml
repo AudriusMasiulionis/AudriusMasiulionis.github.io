@@ -2,6 +2,7 @@ projects:
   - name: AutoDokas.lt
     status: Live
     url: "https://autodokas.lt"
+    image: /images/projects/autodokas.jpg
     summary: >-
       Lithuanian car paperwork, minus the paperwork — fill a car
       purchase-sale contract online in minutes, and compare daily fuel

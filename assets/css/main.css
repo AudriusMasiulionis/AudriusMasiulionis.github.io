@@ -267,6 +267,60 @@ input::placeholder { color: var(--placeholder); }
   background: var(--surface);
 }
 
+/* CTA block */
+.cta-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 24px;
+  padding: 24px 28px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.cta-title { font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+.cta-sub { margin: 6px 0 0; font-size: 15px; line-height: 1.6; color: var(--muted); }
+
+/* Status pills */
+.pill {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--faint);
+}
+.pill-live {
+  color: oklch(72% 0.17 150);
+  border-color: oklch(72% 0.17 150 / 0.35);
+  background: oklch(72% 0.17 150 / 0.1);
+}
+:root[data-theme="light"] .pill-live {
+  color: oklch(50% 0.15 150);
+  border-color: oklch(50% 0.15 150 / 0.35);
+  background: oklch(50% 0.15 150 / 0.08);
+}
+
+/* Project previews */
+.project-preview {
+  display: block;
+  margin-bottom: 6px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+}
+.project-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.15s ease;
+}
+.project-preview:hover img { opacity: 0.88; }
+
 /* Education */
 .edu-row {
   display: flex;

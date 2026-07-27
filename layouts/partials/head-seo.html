@@ -1,5 +1,7 @@
 {{- $desc := .Description | default site.Params.description -}}
-{{- $img := absURL "images/audrius.jpg" -}}
+{{- $pageImg := .Params.image -}}
+{{- $img := cond (ne $pageImg nil) (absURL $pageImg) (absURL "images/audrius.jpg") -}}
+{{- $card := cond (ne $pageImg nil) "summary_large_image" "summary" -}}
 <link rel="canonical" href="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}">
@@ -7,7 +9,7 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:image" content="{{ $img }}">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="{{ $card }}">
 <meta name="twitter:title" content="{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}">
 <meta name="twitter:description" content="{{ $desc }}">
 <meta name="twitter:image" content="{{ $img }}">

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="page-intro">
+<div class="page-intro-text">
+<h1>{{ .Title }}</h1>
+{{ with .Description }}<p class="subtitle">{{ . }}</p>{{ end }}
+</div>
+</section>
+<section class="section section-services">
+<div class="services">
+{{ range hugo.Data.services.services }}
+<div class="service-card">
+<div class="service-head">
+<h2 class="service-title">{{ .name }}</h2>
+{{ with .meta }}<span class="service-meta">{{ . }}</span>{{ end }}
+</div>
+{{ with .summary }}<p class="service-summary">{{ . }}</p>{{ end }}
+{{ with .includes }}
+<ul class="service-includes">
+{{ range . }}<li>{{ . }}</li>{{ end }}
+</ul>
+{{ end }}
+<a class="btn-primary" href="{{ "/contact" | relURL }}">{{ .cta | default "Get in touch" }}</a>
+</div>
+{{ end }}
+</div>
+</section>
+{{ end }}

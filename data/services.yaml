@@ -1,11 +1,13 @@
 services:
-  - name: Fractional Senior .NET & Azure Developer
+  - name: Fractional Full-Stack .NET Developer
     meta: 2–3 days/week · from €500/day
     summary: >-
       An extra senior pair of hands on your team, without a hire. I ship
       production code from day one — no ramp-up theatre.
     includes:
       - Embedded in your team — standups, PRs, planning
-      - Senior .NET/Azure delivery, code review, mentoring
+      - .NET/Azure back-ends, React and Angular front-ends
+      - DevOps and cloud infrastructure — CI/CD pipelines, IaC, Azure and AWS
+      - Code review, mentoring, architecture guidance
       - Weekly written summary of what shipped
     cta: Book an intro call

@@ -1,13 +1,16 @@
 services:
-  - name: Fractional Full-Stack .NET Developer
-    meta: 2–3 days/week · from €500/day
+  - name: Part-time Principal Engineer
+    meta: 2–3 days/week · remote · from €500/day
     summary: >-
-      An extra senior pair of hands on your team, without a hire. I ship
-      production code from day one — no ramp-up theatre.
+      A senior pair of hands for teams that don't need — or can't justify —
+      another full-time hire. I ship from day one; no ramp-up theatre.
     includes:
-      - Embedded in your team — standups, PRs, planning
-      - .NET/Azure back-ends, React and Angular front-ends
-      - DevOps and cloud infrastructure — CI/CD pipelines, IaC, Azure and AWS
-      - Code review, mentoring, architecture guidance
-      - Weekly written summary of what shipped
-    cta: Book an intro call
+      - Software delivery — CI/CD pipelines and practices that take a team
+        from "we release when someone's brave enough" to shipping daily, safely
+      - .NET / C# backends and APIs on Azure — design, build, rescue
+      - Architecture and tech-lead cover — reviews, code review culture,
+        unblocking a stuck team
+      - AI-assisted development on real codebases, not demos
+      - Embedded in your team — standups, PRs, planning — with a weekly
+        written summary of what shipped
+    cta: Tell me what's stuck

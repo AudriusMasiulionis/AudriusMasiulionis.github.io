@@ -1,13 +1,14 @@
-tagline: "Senior technical leader — DevOps & platform engineering · Vilnius, Lithuania"
+tagline: "Principal Engineer | software delivery, DevOps & .NET on Azure · Vilnius, Lithuania"
 pdf: /resume.pdf
 
 summary:
   - >-
-    Senior technical leader with a DevOps and platform engineering focus.
-    Expertise across cloud-native architecture, containerization (Docker,
-    Kubernetes), CI/CD, and infrastructure automation (Ansible), with strong
-    development skills in C#, .NET, and Python. I design, build, and operate
-    scalable, reliable systems aligned with business goals.
+    Principal engineer with ten years building and running .NET systems for
+    banks, pension providers and energy companies: SEB, Visma, Chevron. My
+    specialty is software delivery: CI/CD pipelines and engineering practices
+    that take teams from infrequent, risky releases to shipping daily and
+    safely, on Azure, with C#, .NET and Python. Available part-time (2–3
+    days/week, remote) as a fractional principal engineer.
   - >-
     I own the full delivery lifecycle, from architecture and development to
     infrastructure as code and production operations, across both greenfield
@@ -44,16 +45,16 @@ skills:
 experience:
   - role: Principal Engineer (Contract)
     company: Toughlex
-    dates: Feb 2026 — now
+    dates: Feb 2026 – Aug 2026
     bullets:
       - >-
-        Principal engineer for a bank customer onboarding platform — own
+        Principal engineer for a bank customer onboarding platform, owning
         technical direction across a microservice-based system built on .NET,
         React, AKS, and ArgoCD.
       - >-
-        Integrated the platform with Lithuanian state registries — Registrų
-        centras (Centre of Registers) and Sodra (State Social Insurance Fund)
-        — for automated customer data verification.
+        Integrated the platform with Lithuanian state registries, Registrų
+        centras (Centre of Registers) and Sodra (State Social Insurance Fund),
+        for automated customer data verification.
       - >-
         Designed and implemented a module-based permission model using
         OpenFGA, providing fine-grained access control across services.
@@ -67,7 +68,7 @@ experience:
         architects.
   - role: Technical Lead (Contract)
     company: Chevron
-    dates: Jun 2023 — Oct 2025
+    dates: Jun 2023 – Oct 2025
     bullets:
       - >-
         Defined and executed technical and DevOps strategy, aligning cloud
@@ -97,7 +98,7 @@ experience:
         efficiency through proactive DevOps practices.
   - role: Senior Software Engineer (Contract)
     company: Chevron
-    dates: Jun 2022 — Jun 2023
+    dates: Jun 2022 – Jun 2023
     bullets:
       - >-
         Developed a platform for indexing, classifying, and visualizing
@@ -116,7 +117,7 @@ experience:
         performance for large geospatial datasets.
   - role: Cloud Consultant (Contract)
     company: Danske Bank
-    dates: Mar 2022 — May 2022
+    dates: Mar 2022 – May 2022
     bullets:
       - >-
         Advised a development team of a Scandinavian financial institution on
@@ -129,7 +130,7 @@ experience:
         serverless compute and DynamoDB for high-availability data storage.
   - role: Service Architect / Technical Team Lead
     company: Visma Idella
-    dates: Apr 2021 — Mar 2022
+    dates: Apr 2021 – Mar 2022
     bullets:
       - >-
         Led a 9-member development team delivering services and portals for
@@ -147,7 +148,7 @@ experience:
         Ensured code quality through XUnit testing and peer code reviews.
   - role: Senior Developer
     company: Visma Idella
-    dates: Jul 2020 — Apr 2021
+    dates: Jul 2020 – Apr 2021
     bullets:
       - >-
         Designed and developed a multi-tenant microservice for processing
@@ -163,7 +164,7 @@ experience:
         release with Azure DevOps CI/CD pipelines.
   - role: Lecturer
     company: Vilnius Coding School
-    dates: Nov 2017 — Dec 2018
+    dates: Nov 2017 – Dec 2018
     bullets:
       - >-
         Delivered lectures and hands-on training on Java fundamentals and
@@ -173,7 +174,7 @@ experience:
         students through best practices, debugging, and problem solving.
   - role: .NET Developer
     company: Visma
-    dates: Aug 2017 — Jun 2020
+    dates: Aug 2017 – Jun 2020
     bullets:
       - >-
         Main developer for a pension administration portal used by Danish
@@ -186,7 +187,7 @@ experience:
         functionality.
   - role: .NET Developer
     company: Nortal
-    dates: Jan 2017 — Jul 2017
+    dates: Jan 2017 – Jul 2017
     bullets:
       - >-
         Developed online portals for Baltic telecommunication companies,
@@ -199,7 +200,7 @@ experience:
         interactive user experiences.
   - role: Junior .NET Developer | .NET Developer
     company: SEB
-    dates: Feb 2016 — Jan 2017
+    dates: Feb 2016 – Jan 2017
     bullets:
       - >-
         Developed and maintained internal banking systems using ASP.NET Web
@@ -211,11 +212,11 @@ experience:
 education:
   - degree: Bachelor of Management Information Systems
     school: Vilnius University, Lithuania
-    dates: 2011 — 2015
+    dates: 2011 – 2015
 
 languages:
-  - English — full professional proficiency
-  - Lithuanian — native proficiency
+  - English (full professional proficiency)
+  - Lithuanian (native)
 
 certifications:
   - AWS Certified Cloud Practitioner
@@ -223,16 +224,17 @@ certifications:
 
 community:
   - name: Visma Idella DevOps Guild Member
-    dates: Jan 2021 — Mar 2022
+    dates: Jan 2021 – Mar 2022
   - name: Visma Idella Developer Guild Member
-    dates: Jan 2021 — Mar 2022
+    dates: Jan 2021 – Mar 2022
   - name: Visma Idella Service Architect Guild Member
-    dates: Jan 2021 — Mar 2022
+    dates: Jan 2021 – Mar 2022
   - name: Visma Internship Committee Member
-    dates: Jan 2019 — Jan 2021
+    dates: Jan 2019 – Jan 2021
   - name: Visma Internship Mentor
-    dates: Aug 2017 — Jan 2019
+    dates: Aug 2017 – Jan 2019
 
 achievements:
+  - 2026 Ironman Tallinn finisher (12:47)
   - 2025 Riga Marathon finisher
   - 2025 Poznań Ironman 70.3 finisher

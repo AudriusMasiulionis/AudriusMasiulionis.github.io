@@ -11,7 +11,8 @@ disableKinds = ["taxonomy", "term"]
     ID = "G-Q939WE8E88"
 
 [params]
-  description = "Software Engineer · DevOps · Cloud · Vilnius, Lithuania"
+  description = "Part-time Principal Engineer · DevOps, CI/CD, .NET, Azure · Solo Founder · Vilnius, Lithuania"
+  buildingNow = "/projects"
   email = "audrius.masiulionis@gmail.com"
   linkedin = "https://www.linkedin.com/in/audriusmasiulionis/"
   github = "https://github.com/AudriusMasiulionis"

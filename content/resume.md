@@ -1,5 +1,5 @@
 ---
 title: Resume
 layout: resume
-description: Senior technical leader — DevOps & platform engineering · Vilnius, Lithuania
+description: Principal Engineer | software delivery, DevOps & .NET on Azure · Vilnius, Lithuania
 ---

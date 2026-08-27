@@ -1,5 +1,5 @@
 ---
 title: Contact
 layout: contact
-description: Have a project in mind or a question? Drop me a line.
+description: Tell me what's stuck. I'll tell you straight if I'm the right person for it.
 ---

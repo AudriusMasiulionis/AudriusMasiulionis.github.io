@@ -1,7 +1,12 @@
 ---
 title: Audrius Masiulionis
-description: Senior Developer
+description: Part-time Principal Engineer · Solo Founder
 ---
 
-Hi — I'm Audrius, a .NET/Azure engineer from Vilnius. I build dev tools
-solo and write about it along the way.
+Ten years building and running .NET systems for banks, pension providers and
+energy companies — SEB, Visma, Chevron. Principal Engineer, Tech Lead, Service
+Architect, but mostly the person who gets called when releasing is scary and
+hard, and stays until it's boring.
+
+I now do that work part-time, on purpose — 2–3 days a week, remote. The rest
+of the week I build products and train for triathlon.

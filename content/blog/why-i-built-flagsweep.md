@@ -7,7 +7,7 @@ image: /images/projects/flagsweep.jpg
 
 On 26 September I released the first version of [Flagsweep](https://flagsweep.com/), a free and open source tool for managing the feature flags a team keeps in Azure App Configuration. This post explains where the idea came from and why I think it's worth building.
 
-![The Flagsweep flag list: each flag's state in Development, Staging and Production, with status badges, owners and retire-by dates](/images/projects/flagsweep.jpg)
+![Flagsweep: part of the flag list, with each flag's state in Development, Staging and Production, its status badge and its owner](/images/projects/flagsweep.jpg)
 
 ## What I kept seeing
 

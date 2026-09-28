@@ -1,4 +1,13 @@
 projects:
+  - name: Flagsweep
+    status: Live
+    url: "https://flagsweep.com"
+    image: /images/projects/flagsweep.jpg
+    summary: >-
+      Open source feature flag management on top of Azure App
+      Configuration. It shows every flag across all environments on one
+      screen, records who changed what and when, and gives each flag an
+      owner and a retire-by date. Self-hosted, under Apache-2.0.
   - name: AutoDokas.lt
     status: Live
     url: "https://autodokas.lt"
